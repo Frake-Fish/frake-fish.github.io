@@ -745,12 +745,12 @@
 
 <div class="toast" id="toast">⏸ auto-paused</div>
 
-<input type="file" id="audioFileInput"   accept="audio/*" onchange="handleAudioFile(this)">
-<input type="file" id="resumeAudioInput" accept="audio/*" onchange="handleResumeFile(this)">
+<input type="file" id="audioFileInput"   accept="audio/*,.m4a,.mp3,.wav,.aac,.ogg,.flac" onchange="handleAudioFile(this)">
+<input type="file" id="resumeAudioInput" accept="audio/*,.m4a,.mp3,.wav,.aac,.ogg,.flac" onchange="handleResumeFile(this)">
 <input type="file" id="jsonRestoreInput" accept=".json"   onchange="handleJsonRestore(this)">
 <input type="file" id="srtImportInput"   accept=".srt"    onchange="handleSrtImport(this)">
 <input type="file" id="txtImportInput"   accept=".txt"    onchange="handleTxtImport(this)">
-<input type="file" id="srtAudioInput"    accept="audio/*" onchange="handleSrtAudio(this)">
+<input type="file" id="srtAudioInput"    accept="audio/*,.m4a,.mp3,.wav,.aac,.ogg,.flac" onchange="handleSrtAudio(this)">
 <audio id="audioEl"></audio>
 
 <script>
